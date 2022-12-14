@@ -1,0 +1,11 @@
+{
+    "name": "Encrypt Decrypt Bot",
+    "version": "1.0.0",
+    "description": "Encrypt and decrypt text",
+    "manifest_version": 3,
+    "author": "Will Peters Kenny Okoroafor Piers Ozuah",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Encrypt and decrypt text"
+    }
+}

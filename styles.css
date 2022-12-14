@@ -1,0 +1,36 @@
+h1{
+    font-size:1.5em;
+}
+
+.title{
+    display: inline-block;
+}
+
+#titleImg{
+    width:1.5em;
+}
+
+#titleText{
+    font-style:italic ;
+}
+
+#titleDiv{
+    display: flex;
+    align-items: center;
+}
+
+#textLabel{
+    font-size: 1em;
+}
+
+#formWrapper{
+    padding: 2em;
+}
+
+#textInput{
+    width:30em;
+}
+
+#encryptForm{
+    width:30em;
+}
