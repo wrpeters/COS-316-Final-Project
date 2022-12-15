@@ -15,23 +15,21 @@
 
         <form id="encryptForm">
             <div class="mb-3 mt-3">
-                <label for="keySelect" class="form-label">🔑 Type of Encrypt/Decrypt</label>
-                <select id="keySelect" class="form-select" aria-label="Default select example">
-                    <option selected>Choose a type</option>
-                    <option value="1">AES-256</option>
-                </select>
+                <label for="keyText" class="form-label">🔑 Key</label>
+                <input type="text" class="form-control" id="keyText" placeholder="Key">
             </div>
             <div class="mb-3 mt-3">
               <label for="inputText" class="form-label">⌨️ Text to Encrypt/Decrypt</label>
-              <textarea class="form-control" id="inputText" rows="3"></textarea>
+              <textarea class="form-control" id="inputText" rows="2"></textarea>
             </div>
             <div class="mb-3 mt-3">
                 <label for="inputText" class="form-label">🔒 Result</label>
-                <textarea class="form-control" id="inputText" rows="3"></textarea>
+                <textarea class="form-control" id="inputText" rows="2"></textarea>
               </div>
-            <button type="submit" class="btn btn-primary">Encrypt</button>
-            <button type="submit" class="btn btn-danger">Decrypt</button>
+            <div id="submitEncrypt" class="btn btn-primary">Encrypt</div>
+            <div id="submitDecrypt" class="btn btn-danger">Decrypt</div>
           </form>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
