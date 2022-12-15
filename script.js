@@ -1,3 +1,8 @@
+import EncryptRsa from 'encrypt-rsa';
+
+// create rsa instance
+const encryptRsa = new EncryptRsa();
+
 // Onclick handler functions for encrypt and decrypt
 document.getElementById('submitEncrypt').addEventListener("click", encryptText);
 document.getElementById('submitDecrypt').addEventListener("click", decryptText);
