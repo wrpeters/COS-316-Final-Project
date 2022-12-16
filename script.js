@@ -15,10 +15,9 @@ document.getElementById('submitDecrypt').addEventListener("click", decryptText);
 function encryptText(){
     console.log('In Encrypt');
     var keyText = document.getElementById('keyText');
-    console.log('Key Text: ' + keyText.value);
+    var inputText = document.getElementById('inputText');
 
-    console.log('whats up!')
-    console.log('encrypted', CryptoJS.AES.encrypt('themessage', 'thekey'))
+    document.getElementById('resultText').value = CryptoJS.AES.encrypt(inputText.value, keyText.value).toString();
 
 }
 
@@ -26,6 +25,8 @@ function encryptText(){
 function decryptText(){
     console.log('In Decrypt');
     var keyText = document.getElementById('keyText');
-    console.log('Key Text: ' + keyText.value);
+    var inputText = document.getElementById('inputText');
+
+    document.getElementById('resultText').value = CryptoJS.AES.decrypt(inputText.value, keyText.value).toString(CryptoJS.enc.Utf8);
 }
 
