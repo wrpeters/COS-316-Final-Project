@@ -6,6 +6,7 @@
     "author": "Will Peters Kenny Okoroafor Piers Ozuah",
     "action":{
         "default_popup": "index.html",
+        "default_icon": "images/2433519.png",
         "default_title": "Encrypt and decrypt text"
     }
 }
