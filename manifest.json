@@ -7,8 +7,5 @@
     "action":{
         "default_popup": "index.html",
         "default_title": "Encrypt and decrypt text"
-    },
-    "content_security_policy": {
-        "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js;"
     }
 }
